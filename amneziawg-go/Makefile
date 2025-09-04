@@ -8,8 +8,7 @@ PKG_VERSION:=0.2.15
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/amnezia-vpn/amneziawg-go/archive/refs/tags/v$(PKG_VERSION).tar.gz
-PKG_MIRROR_HASH:=skip
+PKG_SOURCE_URL:=https://github.com/amnezia-vpn/$(PKG_NAME)/archive/refs/tags/v$(PKG_VERSION)/
 PKG_HASH:=skip
 
 PKG_BUILD_DEPENDS:=golang/host
